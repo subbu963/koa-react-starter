@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title><%= title %></title>
+        <script type="text/javascript">
+            window.__INITIAL_STATE__ = <%= JSON.stringify(data) %>;
+        </script>
+    </head>
+    <body>
+        <div id="root"><%= content %></div>
+    </body>
+</html>
