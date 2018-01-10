@@ -5,12 +5,9 @@ import App from './containers/app'
 
 const routes = [
   {
-    component: App,
+    component: Home,
+    exact: true,
     routes: [{
-            path: '/',
-            exact: true,
-            component: Home
-    }, {
             path: '/about',
             exact: true,
             component: About
